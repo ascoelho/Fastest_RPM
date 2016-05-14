@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+@property  CGFloat currVelocity ;
+@property  CGFloat maxVelocity;
+@property (weak, nonatomic) IBOutlet UIImageView *needleView;
+
+
+@property CGAffineTransform minRotationTransform;
+
+
+- (void)movedNeedleWithVelocity: (CGFloat)velocity;
+
 
 @end
 

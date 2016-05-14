@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,45 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speedometer.png" translatesAutoresizingMaskIntoConstraints="NO" id="UEA-io-jIv">
+                                <rect key="frame" x="150.5" y="19.5" width="300" height="300"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="needle.png" translatesAutoresizingMaskIntoConstraints="NO" id="H9J-Su-Cw6">
+                                <rect key="frame" x="260" y="96" width="92" height="132"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="132" id="HbZ-MK-oYv"/>
+                                    <constraint firstAttribute="width" constant="92" id="Zs8-Ki-4UV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H9J-Su-Cw6" firstAttribute="centerY" secondItem="UEA-io-jIv" secondAttribute="centerY" constant="-7.5" id="KkE-b1-M1d"/>
+                            <constraint firstItem="H9J-Su-Cw6" firstAttribute="centerX" secondItem="UEA-io-jIv" secondAttribute="centerX" constant="5.5" id="PgK-aq-nxt"/>
+                            <constraint firstItem="UEA-io-jIv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aT7-G2-IJe"/>
+                            <constraint firstItem="H9J-Su-Cw6" firstAttribute="centerY" secondItem="UEA-io-jIv" secondAttribute="centerY" id="kYS-UK-NMr"/>
+                            <constraint firstItem="H9J-Su-Cw6" firstAttribute="centerX" secondItem="UEA-io-jIv" secondAttribute="centerX" id="pZC-7n-hdl"/>
+                            <constraint firstItem="UEA-io-jIv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-130.5" id="zO9-r9-H8x"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="kYS-UK-NMr"/>
+                                <exclude reference="pZC-7n-hdl"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="needleView" destination="H9J-Su-Cw6" id="tjU-WW-4uP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="375" y="349"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="needle.png" width="400" height="400"/>
+        <image name="speedometer.png" width="300" height="300"/>
+    </resources>
 </document>

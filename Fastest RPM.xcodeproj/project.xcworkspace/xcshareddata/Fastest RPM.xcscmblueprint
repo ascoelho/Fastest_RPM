@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2FEAF45FB03994918652151EFDFC3FCC840DE428",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E481E78759B17BCE49C8EE349ABA6494202C2E31" : 0,
+    "2FEAF45FB03994918652151EFDFC3FCC840DE428" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3B9C3986-B960-408B-968C-B4185F3903B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E481E78759B17BCE49C8EE349ABA6494202C2E31" : "",
+    "2FEAF45FB03994918652151EFDFC3FCC840DE428" : "Fastest%20RPM\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Fastest RPM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Fastest RPM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ascoelho\/Fastest_RPM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2FEAF45FB03994918652151EFDFC3FCC840DE428"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ascoelho\/c.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E481E78759B17BCE49C8EE349ABA6494202C2E31"
+    }
+  ]
+}

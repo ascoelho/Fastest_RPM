@@ -15,6 +15,8 @@
 		438529091CE79B4E00E5F76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438529071CE79B4E00E5F76C /* LaunchScreen.storyboard */; };
 		438529141CE79B4E00E5F76C /* Fastest_RPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438529131CE79B4E00E5F76C /* Fastest_RPMTests.m */; };
 		4385291F1CE79B4E00E5F76C /* Fastest_RPMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4385291E1CE79B4E00E5F76C /* Fastest_RPMUITests.m */; };
+		4385292E1CE79C0200E5F76C /* speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4385292D1CE79C0200E5F76C /* speedometer.png */; };
+		438529301CE79C1900E5F76C /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4385292F1CE79C1900E5F76C /* needle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4385291A1CE79B4E00E5F76C /* Fastest RPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fastest RPMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4385291E1CE79B4E00E5F76C /* Fastest_RPMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fastest_RPMUITests.m; sourceTree = "<group>"; };
 		438529201CE79B4E00E5F76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4385292D1CE79C0200E5F76C /* speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speedometer.png; sourceTree = "<group>"; };
+		4385292F1CE79C1900E5F76C /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				438528FC1CE79B4E00E5F76C /* AppDelegate.h */,
+				4385292C1CE79BF600E5F76C /* Images */,
 				438528FD1CE79B4E00E5F76C /* AppDelegate.m */,
 				438528FF1CE79B4E00E5F76C /* ViewController.h */,
 				438529001CE79B4E00E5F76C /* ViewController.m */,
@@ -138,6 +143,15 @@
 				438529201CE79B4E00E5F76C /* Info.plist */,
 			);
 			path = "Fastest RPMUITests";
+			sourceTree = "<group>";
+		};
+		4385292C1CE79BF600E5F76C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4385292D1CE79C0200E5F76C /* speedometer.png */,
+				4385292F1CE79C1900E5F76C /* needle.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				438529091CE79B4E00E5F76C /* LaunchScreen.storyboard in Resources */,
+				438529301CE79C1900E5F76C /* needle.png in Resources */,
 				438529061CE79B4E00E5F76C /* Assets.xcassets in Resources */,
 				438529041CE79B4E00E5F76C /* Main.storyboard in Resources */,
+				4385292E1CE79C0200E5F76C /* speedometer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
